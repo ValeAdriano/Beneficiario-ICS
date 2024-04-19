@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+
+
+.avisos{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    margin-bottom: 10vh;
+    
+
+    .card{ 
+        border-radius: 10px;
+        padding: 15px;
+        background-color: rgb(80, 131, 80);
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+
+        img{
+            max-width: 300px;
+        }
+    }
+}
