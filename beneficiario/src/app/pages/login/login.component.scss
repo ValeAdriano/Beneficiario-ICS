@@ -28,7 +28,7 @@
 }
 .form button {
 
-    text-align: right;
+    text-align: center;
     margin: auto;
     text-transform: uppercase;
     outline: 0;
@@ -58,12 +58,13 @@ body {
 .botoes{
     display: flex;
     text-align: right;
+    margin: auto;
 
 }
 
 .esqueci{
     color: gray;
     text-decoration: none;
-    
+    margin: auto;
     text-align: left;
 }

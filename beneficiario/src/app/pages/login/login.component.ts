@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { HeaderComponent } from "../../layout/header/header.component";
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+    selector: 'app-login',
+    standalone: true,
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.scss',
+    imports: [RouterLink, HeaderComponent]
 })
 export class LoginComponent {
   entradaUsuario: any;
